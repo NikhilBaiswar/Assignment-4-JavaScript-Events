@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+#main-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.left-div {
+  width: 40%;
+}
+.main-img {
+  width: 100%;
+  margin-top: 50px;
+}
+.right-div {
+  width: 60%;
+  margin-top: 40px;
+  padding-left: 30px;
+}
+.item-name {
+  font-weight: 300;
+  font-size: 44px;
+  letter-spacing: -2px;
+}
+.brand-name {
+  margin-top: 20px;
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: rgb(27, 25, 25);
+}
+.cost {
+  margin-top: 20px;
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: rgb(27, 25, 25);
+}
+.cost span {
+  color: #009688;
+  font-weight: bold;
+}
+.descript h3 {
+  margin-top: 20px;
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: rgb(27, 25, 25);
+}
+.descript p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #86939e;
+}
+.prev h3 {
+  margin-top: 20px;
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: rgb(27, 25, 25);
+}
+.preview-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-top: 20px;
+}
+.preview-img img {
+  margin: 5px;
+  width: 15%;
+  height: 30%;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 6px;
+}
+.active {
+  border: 2px solid #009688;
+}
